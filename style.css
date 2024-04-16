@@ -1,0 +1,502 @@
+*
+{
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+   
+}
+
+/* Header Styles */
+Header {
+    background-color: #000000;
+    padding: 20px 0;
+    width: 100%;
+    transition: top 0.3s ease; /* Add transition for smooth animation */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation links */
+}
+
+nav ul li {
+    display: inline-block; /* Display navigation items horizontally */
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+nav ul li a:hover {
+    color: #00ff00; /* Change color on hover */
+}
+
+/* Sticky Navigation */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: slideDown 0.5s ease; /* Add animation for sliding down */
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+.section h1{
+    display: grid;
+    place-content: center;
+  
+}
+.homebutton{
+    text-align: center;
+    margin-top: 50px;
+}
+.section button{
+    background-color: #00cc00;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease ;
+}
+
+.section button:hover{
+    background-color: #007900;
+}
+.section .span{
+    color: #00cc00;
+}
+.about p{
+   text-align: center;
+   margin-left: 90px;
+   margin-right: 90px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    z-index: 1000; /* Ensure header is above other content */
+}
+
+.section {
+    padding: 50px;
+
+}
+
+footer {
+    background-color: #00cc00;
+    padding: 20px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+
+.social img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+
+
+/* Form Styles */
+form {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #00cc00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease ;
+}
+
+button[type="submit"]:hover {
+    background-color: #019f01;
+}
+
+/* Placeholder color */
+::placeholder {
+    color: #888;
+}
+
+/* Remove default browser styles */
+input:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+  /*for services section*/
+    .approach{
+        text-align: center;
+        margin-top: 90px;
+    }
+    .services {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+    }
+    
+    .service-box {
+      width: 30%;
+      height: 40vh;
+      padding: 20px;
+      margin-left: 5px;
+      margin-bottom: 20px;
+      border: 1px solid #00cc00;
+      transition: box-shadow 0.3s ;
+    }
+    
+    .service-box img {
+      width: 100%;
+      height: 50%;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+    
+    .service-box h2 {
+      margin-top: 10px;
+      color: #333;
+    }
+  
+    .service-description{
+      color: white;
+      font-size: 20px;
+      text-indent: 5px;
+    }
+    .service-description h2{
+      font-size: 17px;
+      color: white;
+    }
+  
+    /* Hover effect */
+    .service-box:hover {
+      box-shadow: 0 0 20px #00cc00;
+   
+    }
+  .toggleMenu{
+    display: none;
+  }
+
+.social{
+    display: flex;
+    gap: 50px;
+
+}
+.link{
+
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    box-sizing: 0 0 10px black;
+    transition: 0.3s;
+}
+.facebook{
+    background: rgb(0,78,221);
+    background: -moz-linear-gradient(45deg, rgba(0,78,221,1) 0%, rgba(4,0,134,1) 50%, rgba(79,68,68,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0,78,221,1) 0%, rgba(4,0,134,1) 50%, rgba(79,68,68,1) 100%);
+    background: linear-gradient(45deg, rgba(0,78,221,1) 0%, rgba(4,0,134,1) 50%, rgba(79,68,68,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004edd",endColorstr="#4f4444",GradientType=1);
+}
+  .instagram{
+    background: rgb(0,91,255);
+    background: -moz-linear-gradient(324deg, rgba(0,91,255,1) 0%, rgba(216,28,221,1) 50%, rgba(254,254,254,1) 100%);
+    background: -webkit-linear-gradient(324deg, rgba(0,91,255,1) 0%, rgba(216,28,221,1) 50%, rgba(254,254,254,1) 100%);
+    background: linear-gradient(324deg, rgba(0,91,255,1) 0%, rgba(216,28,221,1) 50%, rgba(254,254,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#005bff",endColorstr="#fefefe",GradientType=1);
+  }
+  .envelope{
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(136,129,129,1) 50%, rgba(4,14,17,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(136,129,129,1) 50%, rgba(4,14,17,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(136,129,129,1) 50%, rgba(4,14,17,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#040e11",GradientType=1);
+}
+  .link:hover{
+    width: 150px;
+  }
+  .icon{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    transition: 0.3s;
+  }
+  .link:hover .icon{
+width: 30%;
+  }
+  .text{
+    position: absolute;
+    right: 0;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 0;
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .link:hover .text{
+    width: 70%;
+    opacity: 1;
+  }
+
+  #scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  #scrollToTop:hover {
+    background-color: #333;
+  }
+  
+  .service-description h4{
+    color: #00cc00;
+    font-size: 30px;
+     text-shadow: 0 0 5px #00ff00; /* Set the glow effect */
+    
+  }
+  .emailsvg{
+    position: absolute;
+    right: 220px;
+    top: 15px;
+  }
+  .email{
+    position: absolute;
+    top: 15px;
+    right: 50px;
+  }
+  header hr{
+    background: #00cc00;
+  }
+@media screen and (max-width:600px){
+    .about p {
+        text-align: center;
+        margin-left: auto; /* Set left margin to auto */
+        margin-right: auto; /* Set right margin to auto */
+        max-width: 100%; /* Set maximum width to 100% to cover the screen */
+     }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin-bottom: 10px;
+      }
+      .service-box {
+        width: 100%;
+        height: 50vh;
+        padding: 20px;
+
+        border: 1px solid #00cc00;
+        transition: box-shadow 0.3s ;
+      }
+
+    }
+
+
+      @media screen and (max-width:500px){
+      /* Header Styles */
+#mainHeader {
+    background-color: #ffffff;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    border: 1px solid #00cc00;
+    border-radius: 10px;
+    background-color: #ffffff26;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+/* Hamburger Menu Styles */
+#toggleMenu {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+
+
+nav ul {
+    display:none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+}
+
+nav ul.open{
+    display: block;
+    position: absolute;
+}
+
+nav ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+#toggleMenu {
+    display: block;
+}
+
+
+footer {
+    background-color: #00cc00;
+    padding: 20px;
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.emailsvg{
+    height: 20px;
+    position: absolute;
+    right: 210px;
+    top: 17px;
+  }
+  .email{
+    position: absolute;
+    top: 1px;
+    right: 50px;
+  }
+
+}
+
+
