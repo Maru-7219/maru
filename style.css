@@ -350,8 +350,9 @@ width: 30%;
 
       @media screen and (max-width:500px){
           .logo{
-             height: 200px;
-            width: 300px;
+             height: 100px;
+            width: 200px;
+              obect-fit:cover;
             margin-top: 0px;
           }
       /* Header Styles */
