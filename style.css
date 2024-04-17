@@ -554,5 +554,13 @@ footer {
   }
 
 }
+@media screen and (max-width:400px){
+    .service-box{
+        height:65vh;
+    }
+    .service-description{
+        margin-bottom:20px;
+    }
+}
 
 
