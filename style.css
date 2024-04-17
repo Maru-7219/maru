@@ -200,8 +200,9 @@ button:focus {
     }
     
     .service-box {
+        display:inline-block;
       width: 30%;
-      height: 65vh;
+      height: 100%;
       padding: 20px;
       margin-left: 5px;
       margin-bottom: 20px;
