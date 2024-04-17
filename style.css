@@ -10,7 +10,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: visible;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100%;
    
@@ -194,6 +193,7 @@ button:focus {
   .toggleMenu{
     display: none;
   }
+#toggleMeu{display:none;}
 
 .social{
     display: flex;
@@ -407,8 +407,11 @@ nav ul li a {
     cursor: pointer;
     padding: 5px;
     position: absolute;
-    top: 1px;
+    top: 2px;
 }
+          .toggleMenu{ position: absolute;
+    top: 2px;
+}}
 
 .bar {
     display: block;
