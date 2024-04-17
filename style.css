@@ -348,12 +348,12 @@ width: 30%;
     }
 
 
-      @media screen and (max-width:500px){
+      @media screen and (max-width:500px) and (min-width:200px){
           .logo{
              height: 100px;
-            width: 200px;
               obect-fit:cover;
             margin-top: 0px;
+            margin-left:0px;
           }
       /* Header Styles */
 #mainHeader {
