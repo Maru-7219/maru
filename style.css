@@ -543,14 +543,14 @@ footer {
 }
 .emailsvg{
     height: 20px;
-    position: absolute;
-    right: 210px;
-    top: 17px;
+      position: absolute;
+    right: 190px;
+    top: 20px;
   }
   .email{
-    position: absolute;
-    top: 1px;
-    right: 50px;
+        position: absolute;
+    top: 15px;
+    right: 10px;
   }
 
 }
@@ -572,10 +572,11 @@ footer {
     }
     .section h1{
         position:absolute;
-        top:500px;
+           display: grid;
+    place-content: center;
     }
-    .section-box{
-        height:80vh;
+    .service-box{
+        height:70vh;
     }
 }
     
