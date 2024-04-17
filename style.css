@@ -348,13 +348,10 @@ width: 30%;
     }
 
 
-      @media screen and (max-width:500px) and (min-width:200px){
-          .logo{
-             height: 100px;
-              obect-fit:cover;
-            margin-top: 0px;
-            margin-left:0px;
-          }
+      @media screen and (max-width:500px) {
+         .logo{
+             display:none;
+         }
       /* Header Styles */
 #mainHeader {
     background-color: #ffffff;
