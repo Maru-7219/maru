@@ -99,6 +99,9 @@ nav ul li a:hover {
    margin-left: 90px;
    margin-right: 90px;
 }
+.our-approach{
+    border:solid 1px #00cc00;
+}
 
 .fixed-header {
     position: fixed;
