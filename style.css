@@ -93,14 +93,14 @@ nav ul li a:hover {
 .section .span{
     color: #00cc00;
 }
-.about p{
+
    .about p {
    text-align: center;
    margin-left: auto; /* Set left margin to auto */
    margin-right: auto; /* Set right margin to auto */
    max-width: 100%; /* Set maximum width to 100% to cover the screen */
 }
-}
+
 
 .fixed-header {
     position: fixed;
