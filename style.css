@@ -219,6 +219,7 @@ button:focus {
     .service-description{
       color: white;
       font-size: 20px;
+        margin-bottom:15px;
       text-indent: 5px;
     }
     .service-description h2{
