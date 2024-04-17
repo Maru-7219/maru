@@ -330,10 +330,7 @@ width: 30%;
       margin-top: 20px;
     }
     
-    .logo{
-      height: 200px;
-      display: grid;
-      place-content: center;}
+
     .section h1{
       margin-top: 40px;
     }}
