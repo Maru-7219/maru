@@ -349,6 +349,11 @@ width: 30%;
 
 
       @media screen and (max-width:500px){
+          .logo{
+             height: 200px;
+            width: 300px;
+            margin-top: 0px;
+          }
       /* Header Styles */
 #mainHeader {
     background-color: #ffffff;
