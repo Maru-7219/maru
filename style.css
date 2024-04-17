@@ -331,9 +331,9 @@ width: 30%;
     }
     
     .logo{
-      height: 140px;
+      height: 200px;
       display: grid;
-      place-content: center;
+      place-content: center;}
     .section h1{
       margin-top: 40px;
     }}
