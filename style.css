@@ -385,24 +385,6 @@ width: 30%;
           transition: box-shadow 0.3s ;
     }
 }
-@media screen and (max-width:1530px){
-     .service-description{
-      color: white;
-      font-size: 20px;
-        margin-bottom:15px;
-      text-indent: 5px;
-    }
-    .service-box {
-        display:inline-block;
-          width: 30%;
-          height: 50vh;
-          padding: 20px;
-          margin-left: 5px;
-          margin-bottom: 20px;
-          border: 1px solid #00cc00;
-          transition: box-shadow 0.3s ;
-    }
-}
 
 
 
@@ -556,7 +538,7 @@ footer {
 }
 @media screen and (max-width:400px){
     .service-box{
-        height:75vh;
+        height:80vh;
     }
     .service-description{
         margin-bottom:20px;
@@ -564,10 +546,7 @@ footer {
 }
 @media screen and (max-width:935px)
 {
-    nav .container{
-        display:none;
-    }
-    .toggleMenu{
+    header{
         display:none;
     }
     .section h1{
@@ -576,7 +555,7 @@ footer {
     place-content: center;
     }
     .service-box{
-        height:70vh;
+        height:75vh;
     }
 }
     
