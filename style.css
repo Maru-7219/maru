@@ -189,49 +189,7 @@ button:focus {
     outline: none;
 }
 
-  /*for services section*/
-    .approach{
-        text-align: center;
-        margin-top: 90px;
-    }
-    .services {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      margin-bottom: 10px;
-    }
-    
-    .service-box {
-      flex-grow: 1;
-      width: 30%;
-      height: 40vh;
-      padding: 20px;
-      margin-left: 5px;
-      margin-bottom: 20px;
-      border: 1px solid #00cc00;
-      transition: box-shadow 0.3s ;
-    }
-   
-    
-    .service-box h2 {
-      margin-top: 10px;
-      color: #333;
-    }
   
-    .service-description{
-      color: white;
-      font-size: 20px;
-      text-indent: 5px;
-    }
-    .service-description h2{
-      font-size: 17px;
-      color: white;
-    }
-  
-    /* Hover effect */
-    .service-box:hover {
-      box-shadow: 0 0 20px #00cc00;
-   
     }
   .toggleMenu{
     display: none;
@@ -328,11 +286,6 @@ width: 30%;
     background-color: #333;
   }
   
-  .service-description h4{
-    color: #00cc00;
-    font-size: 30px;
-     text-shadow: 0 0 5px #00ff00; /* Set the glow effect */
-    
   }
   .emailsvg{
     position: absolute;
@@ -356,9 +309,7 @@ width: 30%;
     .approach{
       display: none;
     }
-    .servicessss{
-      display: none;
-    }
+    
   }
   @media screen and (max-width:400px){
     body{
@@ -378,11 +329,7 @@ width: 30%;
       place-content: center;
       margin-top: 20px;
     }
-    .service-box{
-     display: flex;
-     flex-direction: column;
- 
-    }
+    
     .logo{
       height: 140px;
       display: grid;
@@ -400,21 +347,7 @@ width: 30%;
         max-width: 100%; /* Set maximum width to 100% to cover the screen */
      }
 
-    .services {
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        margin-bottom: 10px;
-      }
-      .service-box {
-        width: 100%;
-        height: 50vh;
-        padding: 20px;
-
-        border: 1px solid #00cc00;
-        transition: box-shadow 0.3s ;
-      }
-
+    
     }
 
 
