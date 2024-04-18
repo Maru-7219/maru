@@ -41,12 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// Hamburger Menu Functionality
-document.getElementById('toggleMenu').addEventListener('click', function() {
-    var nav = document.querySelector('nav ul');
-    nav.classList.toggle('open');
-});
-
 // Define scrollPosition variable
 var scrollPosition;
 
@@ -57,13 +51,6 @@ window.addEventListener('scroll', function() {
 });
 
 
-// Close menu when clicking outside of it
-document.body.addEventListener('click', function(event) {
-    var nav = document.querySelector('nav ul');
-    if (!nav.contains(event.target) && event.target !== document.getElementById('toggleMenu')) {
-        nav.classList.remove('open');
-    }
-});
 
 
 
